@@ -221,7 +221,7 @@ void snakeMovement()
     }
  
   displaySnakeOn();
-  delay(gameSpeed);
+  delay(gameSpeed); /// folosesc acest delay pentru a seta viteza sarpelui ( gameSpeed este initial 250 si scade cu 10 la fiecare patratica mancata)
   displaySnakeOff();
   
 }
@@ -271,7 +271,7 @@ bool snakeIsDying() /// verific daca sarpele isi musca coada
 }
 
 
-void gameReset() /// functie activata la apasarea butonului, sarpele reprimeste pozitia si dimensiunea initiala
+void gameReset() /// functie activata la apasarea butonului, sarpele reprimeste dimensiunea initiala si noi coordonate, scorul, nivelul si viteza se reseteaza
 {
   gameOn = false;
   gameSpeed = 250;
