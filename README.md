@@ -19,10 +19,14 @@ Scorul si dificultatea:
 
 -	Scorul creste progresiv, cu fiecare patratica pe care o mananca sarpele
 -	Dificultatea progresiva este data de faptul ca viteza sarpelui creste cu fiecare patratica mancata( folosesc un delay care initial este 250ms si care scade cu 10 la fiecare patratica mancata)
+
 Cum se joaca:
+
    Jocul incepe odata cu apasarea butonului de pe joystick.Sarpele are 4 directii de miscare (sus, jos, stanga, dreapta) si se misca cu ajutorul joystick-ului. Sarpele va executa singur ultima comanda, in caz ca joystick-ul nu mai primeste nicio comanda( de exemplu, daca ultima comanda a fost dreapta, atunci sarpele va merge singur dreapta pana cand va primi o noua comanda)
    La final, daca jocul este terminat ( fie ca este castigat sau pierdut), player-ul poate apasa din nou pe buton si jocul se va relua.
+   
 Implementare:
+
 In implementare, avem o variabila in care retinem scorul, o variabila in care retinem viteza sarpelului( care se va modifica cu cat avansam in joc), un vector in care retinem sarpele(fiecare patratica din sarpe) si coordonatele patratelului care va fi “mancat”(coordonatele vor fi mereu random)
 
 Vom avea functii pentru:
