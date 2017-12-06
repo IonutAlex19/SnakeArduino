@@ -39,3 +39,7 @@ Vom avea functii pentru:
 -	Functie care reseteaza jocul
 -	Mesajul final pentru castig/pierdere
 -	Redimensionarea sarpelui dupa fiecare patratica mancata
+
+Video-ul jocului:
+
+https://drive.google.com/file/d/1fUzF7o-ud0ulHH5irYggr0BreA28DWFo/view?usp=sharing
